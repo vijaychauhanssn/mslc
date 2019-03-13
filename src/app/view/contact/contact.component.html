@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark_none bg-nav-img">
+  <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-dark_none bg-nav-img">
   <!-- Links -->
   <ul class="navbar-nav ml-auto p-5">
     <li class="nav-item mr-3">
@@ -25,7 +25,7 @@
     </li>  
     <li>
     <div id="mySidenav" class="sidenav">
-      <a [routerLink]="['#']" class="closebtn" (click)="closeNav(closeNav)">&times;</a>
+       <span class="closebtn" (click)="closeNav(closeNav)">&times;</span>
       <a [routerLink]="['/home']">Home</a>
       <a [routerLink]="['/contact']">Contact</a>
     </div>
@@ -79,35 +79,35 @@
 					<h6 class="text-primay-main mb-4">Container Details</h6>
 					<div class="clearfix"></div>
 					<div class="row">
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline">
 							<img src="assets/imgs/booking-request/icon-3.png">
 							<p class="m-0 pl-2">20'General</p>
 						</div>
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline">
 							<img src="assets/imgs/booking-request/icon-4.png">
 							<p class="m-0 pl-2">20'General</p>
 						</div>
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline">
 							<img src="assets/imgs/booking-request/icon-5.png">
 							<p class="m-0 pl-2">20'General</p>
 						</div>
 					</div>
 					<div class="row pt-4">
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline">
 							<img src="assets/imgs/booking-request/icon-3.png">
 							<p class="m-0 pl-2">20'General</p>
 						</div>
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline">
 							<img src="assets/imgs/booking-request/icon-4.png">
 							<p class="m-0 pl-2">20'General</p>
 						</div>
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline">
 							<img src="assets/imgs/booking-request/icon-5.png">
 							<p class="m-0 pl-2">20'General</p>
 						</div>
 					</div>
 					<div class="row pt-4">
-						<div class="col-lg-3 d-flex align-items-center">
+						<div class="col-lg-3 d-flex align-items-baseline bg-custom-size">
 							<img src="assets/imgs/booking-request/icon-6.png">
 							<p class="m-0 pl-2">Custmize size</p>
 						</div>
@@ -177,26 +177,24 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-12">
-							<h6 class="text-primay-main">Payment Mode</h6>
+							<h6 class="text-primay-main mb-3">Payment Mode</h6>
 						</div>
 						<div class="col-lg-2">
-							<div class="form-check-inline">
-							  <label class="form-check-label">
-							    <input type="radio" class="form-check-input" name="prepaid">Prepaid
-							  </label>
-							</div>
+							 <label class="e-radio e-radio--bold e-radio--state-success">
+								<input type="radio" name="example_5_1" value="" checked=""> Prepaid
+								<span></span>
+						   </label>
 						</div>
 						<div class="col-lg-2">
-							<div class="form-check-inline">
-							  <label class="form-check-label">
-							    <input type="radio" class="form-check-input" name="postpaid">Postpaid
-							  </label>
-							</div>
+						  <label class="e-radio e-radio--bold e-radio--state-success">
+								<input type="radio" name="example_5_1"> Postpaid
+								<span></span>
+						   </label>
 						</div>
 					</div>
 					<div class="row mt-4">
 						<div class="col-lg-2">
-							<button type="button" class="btn btn-primay-main btn-lg-2"> Request</button>
+							<button type="button" class="btn btn-primay-main btn-lg-2 mb-3"> Request</button>
 						</div>
 						<div class="col-lg-3 mr-auto">
 							<button type="button" class="btn  btn-outline-primary-main btn-lg-2"> Cancle</button>
@@ -205,7 +203,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 pr-lg-4">
 				<h6 class="text-primay-main">Payment Details</h6>
 				<div class="card border-0 border-top-3">
 					<div class="card-body">
@@ -237,6 +235,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="row w-100">
+			<div class="col-lg-12  m-0">
+					<footer class="footer pt-2 pb-2  d-block d-md-block d-lg-none">
+						<p class="text-center  mb-0  text-black">Copyrights 2019 </p>
+					</footer>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
+<footer class="footer pt-2  footer-bottom d-none d-lg-block">
+  <p class="text-center mb-2 text-black">Copyrights 2019 </p>
+</footer>
+
+

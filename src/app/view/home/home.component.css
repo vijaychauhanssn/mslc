@@ -7,10 +7,15 @@
 }
 .table-borderless tbody+tbody, .table-borderless td, .table-borderless th, .table-borderless thead th {
     border: 0;
-    font-weight: 500;
+    font-weight: 400;
 }
 tbody >tr {
     background-color: #d6d8db;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+tbody >tr:hover {
+    background-color: #b9bbbf;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -103,13 +108,7 @@ tbody >tr {
     background-color: #3d96fd;
     border-color: #3d96fd;
 }  
-.main_header_area {
-    display: block;
-    width: 100%;
-    z-index: 9999;
-    position: absolute;
-    padding: 35px 0px 0;
-}
+
 @media(max-width: 1165px) and (min-width:300px ){
     .w-75 {
         width: 100%!important;
@@ -123,4 +122,13 @@ tbody >tr {
     display: block;
     margin-bottom: 28px;           
     }
+}
+.text-paid{
+    color: #43b616;
+}
+.text-partially{
+    color: #e5960d; 
+}
+.text-unpaid{
+    color: #e14834
 }

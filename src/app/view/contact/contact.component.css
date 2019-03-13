@@ -7,7 +7,7 @@
 }
 .container-top {
     position: absolute;
-    top: 25%;
+    top: 22%;
 }
 .bg-br {
     background-color: rgba(186, 228, 233, 0.27058823529411763)!important;
@@ -40,8 +40,14 @@
     background-color: #13c7b0;
     border-color: #13c7b0;
 }
+.btn-primay-main:hover{
+    color: #13c7b0;
+    border-color: #13c7b0;
+    background-color: transparent;
+
+}
 .border-top-3{
-    border-top: 3px solid #13c7b0 !important;
+   border-top: 3px solid #13c7b0 !important;
    border-top-left-radius: 0;
    border-top-right-radius: 0;
 
@@ -50,6 +56,108 @@
     color: #13c7b0;
     border-color: #13c7b0;
 }
+.btn-outline-primary-main:hover {
+    color: #fff;
+    border-color: #13c7b0;
+   background-color: #13c7b0;
+}
 .cursor{
 	cursor: pointer;
+}
+@media(max-width: 1165px) and (min-width:300px ){
+    .navbar-nav {
+    flex-direction: row;
+   }
+}
+.bg-custom-size{
+   background: #b0e9e2;
+    border: 1px solid #13c7b0;
+    padding: 7px;
+}
+/*radio button*/
+ .e-radio {
+    display: block;
+}
+.e-form, .e-form label {
+    font-weight: 400;
+  font-size: 0.80rem;
+}
+.e-radio {
+    color: #575962;
+}
+.e-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.e-radio>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+.m-radio>span, .e-radio.e-radio--bold>span .e-radio--bold>span {
+    border-width: 2px !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.e-radio>span {
+    border: 1px solid #bdc3d4;
+}
+.e-radio>span {
+    border-radius: 50%!important;
+}
+.e-radio>span {
+    border-radius: 3px;
+    background: none;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+}
+.e-radio>input:checked ~ span:after {
+    display: block;
+}
+.e-radio>span:after {
+ border: solid rgb(19, 199, 176);
+ background: rgb(19, 199, 176);
+}
+.e-radio.e-radio--state-brand>span:after {
+    border: solid #716aca;
+    background: #716aca;
+}
+.e-radio>span:after {
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 19px;
+    width: 19px;
+    border-radius: 100% !important;
+}
+
+.e-radio>span:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+/*end radio button*/
+body {
+    background-color: #f3f7fb !important;
+}
+
+.footer-bottom{
+	position: absolute;
+    bottom: -43%;
+    width: 100%;
 }

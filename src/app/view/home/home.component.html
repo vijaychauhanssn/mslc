@@ -1,5 +1,5 @@
 <header class="main_header_area">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark_none">
+  <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-dark_none">
   <!-- Links -->
   <ul class="navbar-nav ml-auto p-5">
     <li class="nav-item mr-3">
@@ -27,7 +27,7 @@
     </li>  
     <li>
     <div id="mySidenav" class="sidenav">
-      <a [routerLink]="['']" class="closebtn" (click)="closeNav(closeNav)">&times;</a>
+       <span class="closebtn" (click)="closeNav(closeNav)">&times;</span>
       <a [routerLink]="['/home']">Home</a>
       <a [routerLink]="['/contact']">Contact</a>
     </div>
@@ -207,7 +207,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><img src="assets/imgs/icon-11.png"> Paid</td>
+        <td class="d-flex align-items-baseline"><img src="assets/imgs/icon-11.png"> <span class="text-paid ml-1">Paid</span></td>
         <td>Doe</td>
         <td>info Pvt. Ltd.</td>
         <td>PD60456</td>
@@ -218,7 +218,7 @@
       </tr>
       <div class="pt-2"></div>
       <tr>
-        <td><img src="assets/imgs/icon-12.png"> Mary</td>
+        <td class="d-flex align-items-baseline"><img src="assets/imgs/icon-12.png"> <span class="text-partially ml-1">Partially Paid</span></td>
         <td>Moe</td>
         <td></td>
         <td>PD60456</td>
@@ -229,7 +229,7 @@
       </tr>
       <div class="pt-2"></div>
       <tr>
-        <td><img src="assets/imgs/icon-13.png"> July</td>
+        <td class="d-flex align-items-baseline"><img src="assets/imgs/icon-13.png"> <span class="text-unpaid ml-1">Unpaid</span></td>
         <td>Dooley</td>
         <td></td>
         <td>PD60456</td>
