@@ -166,3 +166,14 @@ footer {
 .font-size-29{  font-size: 29px;}
 .font-size-30{  font-size: 30px;}
 /*end font size*/
+.book-color {
+    color: #456473;
+}
+/*custom container-fluid*/
+.container-fluid-custom {
+    width: 100%;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    margin-right: auto;
+    margin-left: auto;
+}

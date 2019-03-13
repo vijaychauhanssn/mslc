@@ -132,3 +132,36 @@ tbody >tr:hover {
 .text-unpaid{
     color: #e14834
 }
+.brb-1:before{
+    content: '';
+    border-right: 1px solid #7c8b9e;
+    height: 24px;
+    width: 186px;
+    position: absolute;
+    text-align: center;
+}
+.brb-2:before{
+    content: '';
+    border-right: 1px solid #7c8b9e;
+    height: 24px;
+    width: 165px;
+    position: absolute;
+    text-align: center;
+}
+
+.br-2:before{
+    content: '';
+    border-right: 1px solid #7c8b9e;
+    height: 25px;
+    width: 247px;
+    position: absolute;
+    text-align: center;
+}
+.br-1:before{
+    content: '';
+    border-right: 1px solid #7c8b9e;
+    height: 25px;
+    width: 133px;
+    position: absolute;
+    text-align: center;
+}
