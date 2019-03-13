@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+section {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.text-main{
+  color: #e1601f;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right:  0;
+    background-color: #2a5fa2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none !important;
+}
+.text-primay-main{
+    color: #13c7b0;
+}
+.btn-primay-main{
+    color: #fff;
+    background-color: #13c7b0;
+    border-color: #13c7b0;
+}
+.table td, .table th {
+    padding: 1.75rem !important;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+body {
+	overflow-x: hidden;
+}
+.card {
+    border: none;
+    -webkit-box-shadow: 0 -3px 31px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+    box-shadow: 0 -3px 31px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+    margin-bottom: 30px;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wv8cyt');
+  src:  url('fonts/icomoon.eot?wv8cyt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wv8cyt') format('truetype'),
+    url('fonts/icomoon.woff?wv8cyt') format('woff'),
+    url('fonts/icomoon.svg?wv8cyt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-1:before {
+  content: "\e900";
+  font-size: 3em;
+}
+.icon-icon-2:before {
+  content: "\e901";
+  font-size: 3em;
+}

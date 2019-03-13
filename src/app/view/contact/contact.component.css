@@ -1,0 +1,55 @@
+.bg-nav-img {
+    background: url(../../../assets/imgs/booking-request/header-image.png);
+    background-repeat: no-repeat;
+    padding-bottom:  73vh;
+    background-position: right top;
+    background-size: cover;
+}
+.container-top {
+    position: absolute;
+    top: 25%;
+}
+.bg-br {
+    background-color: rgba(186, 228, 233, 0.27058823529411763)!important;
+}
+.btn-lg-2 {
+    padding: 8px 35px;
+    border-radius: 20px;
+}
+.brakup-bottom{
+	position: relative;
+}
+.brakup-bottom:after {
+	background-image:url(../../../assets/imgs/booking-request/icon-1.png);
+    content: '';
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 46px;
+    position: absolute;
+    background-position: right;
+    right: 0;
+    bottom: -35px;
+
+}
+
+.text-primay-main{
+    color: #13c7b0;
+}
+.btn-primay-main{
+    color: #fff;
+    background-color: #13c7b0;
+    border-color: #13c7b0;
+}
+.border-top-3{
+    border-top: 3px solid #13c7b0 !important;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+
+}
+.btn-outline-primary-main {
+    color: #13c7b0;
+    border-color: #13c7b0;
+}
+.cursor{
+	cursor: pointer;
+}
